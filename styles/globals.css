@@ -2,12 +2,14 @@
 
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;   
 
 /* 
   Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
 */
-
+/* 
+global.css file
+*/
 .main {
   width: 100vw;
   min-height: 100vh;
