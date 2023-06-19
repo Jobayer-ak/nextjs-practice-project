@@ -2,9 +2,6 @@ import Link from 'next/link';
 import React from 'react';
 
 const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
-
-    
-
   return (
     <div>
       <section className="w-full max-w-full flext-start flex-col">
@@ -52,16 +49,17 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
             />
           </label>
 
-          <div className="flex-end mx-3 mb-5 mt-5 gap-4">
+          <div className="flex-end mx-3 mb-5 gap-4">
             <Link href="/" className="text-gray-500 text-sm">
               Cancel
             </Link>
+
             <button
               type="submit"
               disabled={submitting}
-              className="px-5 py-1 text-sm bg-primary-orange rounded-full text-white"
+              className="px-5 py-1.5 text-sm bg-primary-orange rounded-full text-white"
             >
-              {submitting ? `${type}...` : type}
+              {submitting ? `${type}ing...` : type}
             </button>
           </div>
         </form>
