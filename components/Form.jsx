@@ -6,7 +6,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
     <div>
       <section className="w-full max-w-full flext-start flex-col">
         <h1 className="head_text text-left">
-          <span className="blue-gradient">{type} Post</span>
+          <span className="blue_gradient">{type} Post</span>
         </h1>
 
         <p className="desc text-left max-w-md">
