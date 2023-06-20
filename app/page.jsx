@@ -1,4 +1,5 @@
 import Feed from '@components/Feed';
+import Profile from '@components/Profile';
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
         dolores, natus odit nulla quis quod illo explicabo unde quo ea.
       </p>
 
-      {/* Feed Component  */}
+      
       <Feed />
     </section>
   );

@@ -14,7 +14,7 @@ const Nav = () => {
     const setUpProviders = async () => {
       const response = await getProviders();
       setProviders(response);
-      console.log("providers: ", providers)
+      // console.log("providers: ", response)
       return response;
     };
 
